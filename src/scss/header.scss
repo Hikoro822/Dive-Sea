@@ -1,10 +1,14 @@
 .header {
     margin-top: 20px;
+    overflow: hidden;
+    height: 755px;
+    margin-bottom: 1000px;
 
     &__inner {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        margin-bottom: 111px;
     }
 
     &__search {
@@ -55,7 +59,24 @@
     margin-right: auto;
 }
 
-.logo {}
+.logo {
+    display: flex;
+    align-items: center;
+
+    img {
+        display: inline;
+    }
+
+    h2 {
+        display: inline;
+        margin-left: 7px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 21.36px;
+        lighting-color: 130%;
+        display: none;
+    }
+}
 
 .menu {
     &__list {
@@ -78,5 +99,40 @@
     &__link:hover {
         transform: scale(1.1);
         opacity: .7;
+    }
+}
+
+.header__content {
+    display: flex;
+
+    .header-left {
+        width: 50%;
+    }
+
+    .header-right {
+        position: relative;
+        display: flex;
+        width: 50%;
+        left: 136px;
+
+        .image-top {
+            position: relative;
+            bottom: 60px;
+            right: 170px;
+            display: inline;
+        }
+
+        .arrow-top {
+            position: relative;
+            right: 180px;
+            bottom: 140px;
+            transform: rotateX(30deg);
+        }
+
+        .image-bottom {
+            position: relative;
+            top: 160px;
+            right: 430px;
+        }
     }
 }

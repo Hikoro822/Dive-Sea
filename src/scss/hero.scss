@@ -1,0 +1,81 @@
+.hero-text {
+    &_button {}
+
+    &__container {
+        max-width: 567px;
+        margin-bottom: 80px;
+    }
+
+    &__title {
+        font-family: 'Poppins' sans-serif;
+        font-weight: 600;
+        font-size: 75px;
+        line-height: 120%;
+        letter-spacing: -3px;
+        margin-bottom: 16px;
+    }
+
+    &__description {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--description-color);
+        margin-bottom: 45px;
+        max-width: 489px;
+
+        span {
+            font-weight: 600;
+            color: #000;
+        }
+    }
+}
+
+.button {
+    &__group {
+        max-width: 340px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 23px;
+    }
+}
+
+.explore-more {
+    padding: 18px 29px;
+    background-color: var(--button-black-bg);
+    color: var(--button-black-color);
+    border-radius: 12.41px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16.27px;
+    font-weight: 500;
+    transition: .66s;
+}
+
+.explore-more:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.create-nft {
+    padding: 18px 21px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 12.41px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16.27px;
+    color: #000;
+    font-weight: 500;
+    transition: .66s;
+}
+
+.create-nft:hover {
+    background-color: var(--button-black-bg);
+    color: var(--button-black-color);
+}
+
+.explore-more:active,
+.create-nft:active {
+    transform: scale(.9);
+}
