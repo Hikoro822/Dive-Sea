@@ -55,13 +55,15 @@
 .explore-more:hover {
     background-color: #fff;
     color: #000;
-    border: 1px solid #000;
+    // border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
 }
 
 .create-nft {
     padding: 18px 21px;
     background-color: #fff;
-    border: 1px solid #000;
+    // border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
     border-radius: 12.41px;
     font-family: 'Poppins', sans-serif;
     font-size: 16.27px;
@@ -73,6 +75,7 @@
 .create-nft:hover {
     background-color: var(--button-black-bg);
     color: var(--button-black-color);
+    // box-shadow: 0 0 10px rgba(255, 255, 255, .6);
 }
 
 .explore-more:active,

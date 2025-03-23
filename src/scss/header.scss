@@ -1,9 +1,7 @@
 .header {
     margin-top: 20px;
     overflow: hidden;
-    height: 755px;
-    margin-bottom: 1000px;
-
+    height: 899px;
     &__inner {
         display: flex;
         align-items: center;
@@ -120,12 +118,14 @@
             bottom: 60px;
             right: 170px;
             display: inline;
+            max-width: 100%;
         }
 
         .arrow-top {
             position: relative;
             right: 180px;
             bottom: 140px;
+            max-width: 100%;
             transform: rotateX(30deg);
         }
 
@@ -133,6 +133,7 @@
             position: relative;
             top: 160px;
             right: 430px;
+            max-width: 100%;
         }
     }
 }
