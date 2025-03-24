@@ -6,3 +6,10 @@ button {
     background-color: var(--button-black-bg);
     color: var(--button-black-color);
 }
+
+.burger-menu{
+    position: relative;
+    left: 300px;
+    top: 15px;
+    display: none;
+}

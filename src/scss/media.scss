@@ -1,3 +1,5 @@
+// Media === header ===
+
 @media (max-width: 1100px) {}
 
 .menu {
@@ -6,11 +8,11 @@
     }
 
     &__link {
-        font-size: 14pxx;
+        font-size: 14px;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     .header {
 
         .logo {
@@ -111,7 +113,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 788px) {
     .header {
 
         .logo {
@@ -143,5 +145,68 @@
             margin-right: 50px;
         }
 
+    }
+}
+
+@media (max-width: 450px) {
+    .header {
+        &__search {
+            display: none;
+        }
+
+        &__button {
+            display: none;
+        }
+
+        .menu {
+            &__list {
+                background-color: red;
+                display: none;
+            }
+        }
+
+        &__inner {
+            display: flex;
+            align-items: start;
+            justify-content: start;
+        }
+    }
+
+    .logo {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+
+        img {
+            display: inline;
+        }
+
+        h2 {
+            display: inline;
+            width: 100px;
+        }
+    }
+
+    .burger-menu {  
+        display: block;
+    }
+
+}
+
+// Media === hero-text ===
+
+
+@media (max-width: 800px) {
+    .hero-text {
+        &__title {
+            background-color: blue;
+            font-size: 10px;
+        }
+
+        &__container {
+            max-width: 403px;
+            margin-bottom: 55px;
+            background: red;
+        }
     }
 }

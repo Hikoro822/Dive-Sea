@@ -69,6 +69,12 @@
     &__card:nth-child(5) {
         position: relative;
         left: 52px;
+
+        img{
+            position: relative;
+            left: 14px;
+            border-radius: 10px;
+        }
     }
 
     &__card-time {
@@ -79,7 +85,7 @@
         border-radius: 10px;
         position: relative;
         bottom: 240px;
-        left: 100px;
+        left: 80px;
         backdrop-filter: blur(2px);
         color: #fff;
     }
