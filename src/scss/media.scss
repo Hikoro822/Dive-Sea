@@ -38,9 +38,19 @@
         }
 
         &__button {
-            font-size: 11.5px;
-            padding: 10px 17px;
-            margin-right: 50px;
+            line-height: 1.5;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .header {
+
+        &__button {
+            font-size: 10.5px;
+            padding: 1px 3px;
+            margin-right: 0px;
+            margin-left: 0px;
         }
 
     }
@@ -185,9 +195,10 @@
             display: inline;
             width: 100px;
         }
+
     }
 
-    .burger-menu {  
+    .burger-menu {
         display: block;
     }
 
@@ -196,17 +207,238 @@
 // Media === hero-text ===
 
 
-@media (max-width: 800px) {
+@media (max-width: 1350px) {
+    .header {
+        margin-left: 50px;
+        height: 800px;
+
+        &__inner {
+            margin-bottom: 80px;
+        }
+
+        &-right {
+            position: relative;
+            display: flex;
+            width: 50%;
+            left: 136px;
+
+            .image-top {
+                width: 70%;
+                margin-bottom: 50px;
+            }
+
+            .arrow-top {
+                width: 20%;
+                margin-top: 100px;
+                right: 100px;
+            }
+
+            .image-bottom {
+                margin-top: 120px;
+                width: 55%;
+            }
+        }
+    }
+}
+
+.hero-text {
+    &__title {
+        // background-color: blue;
+        font-size: 55px;
+    }
+
+    &__container {
+        max-width: 403px;
+        margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header {
+        height: 700px;
+
+        &__inner {
+            margin-bottom: 80px;
+        }
+
+        &-right {
+            position: relative;
+            display: flex;
+            width: 50%;
+            left: 136px;
+
+            .image-top {
+                width: 80%;
+            }
+
+            .arrow-top {
+                width: 20%;
+                margin-top: 100px;
+            }
+
+            .image-bottom {
+                margin-top: 70px;
+                width: 60%;
+            }
+        }
+    }
+}
+
+.hero-text {
+    &__title {
+        // background-color: blue;
+        font-size: 55px;
+    }
+
+    &__container {
+        max-width: 403px;
+        margin-bottom: 55px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .header {
+        height: 700px;
+
+        &__inner {
+            margin-bottom: 80px;
+        }
+
+        &-right {
+            position: relative;
+            display: flex;
+            width: 50%;
+            left: 136px;
+
+            .image-top {
+                width: 90%;
+            }
+
+            .arrow-top {
+                width: 20%;
+                margin-top: 100px;
+            }
+
+            .image-bottom {
+                margin-top: 70px;
+                width: 70%;
+            }
+        }
+    }
+}
+
+.hero-text {
+    &__title {
+        // background-color: blue;
+        font-size: 55px;
+    }
+
+    &__container {
+        max-width: 403px;
+        margin-bottom: 55px;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .header {
+        height: 650px;
+
+        &__inner {
+            margin-bottom: 40px;
+        }
+
+        &-right {
+            position: relative;
+            display: flex;
+            width: 50%;
+            left: 136px;
+
+            .image-top {
+                width: 90%;
+            }
+
+            .arrow-top {
+                width: 20%;
+                margin-top: 100px;
+            }
+
+            .image-bottom {
+                margin-top: 0px;
+                width: 70%;
+            }
+        }
+    }
+}
+
+.hero-text {
+    &__title {
+        // background-color: blue;
+        font-size: 55px;
+    }
+
+    &__container {
+        max-width: 403px;
+        margin-bottom: 55px;
+    }
+}
+
+
+@media (max-width: 710px) {
     .hero-text {
         &__title {
-            background-color: blue;
-            font-size: 10px;
+            // background-color: blue;
+            font-size: 40px;
         }
 
         &__container {
             max-width: 403px;
-            margin-bottom: 55px;
-            background: red;
+            margin-bottom: 35px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .hero-text {
+        .button {
+            &__group {
+                max-width: 340px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 23px;
+            }
+        }
+
+        .explore-more {
+            padding: 13px 25px;
+            font-size: 14.27px;
+        }
+
+        .create-nft {
+            padding: 13px 21px;
+            font-size: 14.27px;
+        }
+
+        &__container {
+            max-width: 567px;
+            margin-bottom: 80px;
+        }
+
+        &__description {
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: var(--description-color);
+            margin-bottom: 45px;
+            max-width: 489px;
+
+            span {
+                font-weight: 600;
+                color: #000;
+            }
         }
     }
 }

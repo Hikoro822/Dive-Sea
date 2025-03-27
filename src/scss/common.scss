@@ -7,9 +7,42 @@ button {
     color: var(--button-black-color);
 }
 
-.burger-menu{
+.burger-menu {
     position: relative;
-    left: 300px;
+    left: 200px;
     top: 15px;
     display: none;
+}
+
+.arrow {
+    max-width: 166px;
+    padding: 29px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 114px;
+    background-color: #FCFCFD;
+    border-radius: 27.25px;
+    box-shadow: 0px 43px 34.49px #0F0F0F1F;
+    transition: .55s;
+}
+
+.arrow:hover {
+    box-shadow: 0 43px 34.49px #0f0f0f39;
+}
+
+.arrow-left,
+.arrow-right {
+    cursor: pointer;
+}
+
+.arrow-left:after {
+    content: '';
+    background-color: #E6E8EC;
+    padding: 6px 1px;
+    position: relative;
+    left: 27px;
+    top: 5px;
 }
